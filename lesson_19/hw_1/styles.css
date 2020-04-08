@@ -11,7 +11,9 @@
     width: 100vw;
 }
 
-/* .spinner {} */
+.spinner {
+    position: relative;
+}
 
 .spinner-text {
     font-family: monospace;
@@ -21,10 +23,13 @@
 }
 
 .rect {
+    position: absolute;
     background-color: black;
     width: 10px;
     height: 4px;
     border-radius: 2px;
-    animation: moving 2s infinite linear;
+    /* animation: moving 2s infinite linear; */
+    animation: moving 2s blinking 2s;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
 }
