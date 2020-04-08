@@ -3,6 +3,9 @@
 }
 
 .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     left: calc(100vw/2 - 100px);
     font-family: Arial, Helvetica, sans-serif;
@@ -10,8 +13,6 @@
     font-weight: 700;
     color: white;
     text-transform: uppercase;
-    text-align: center;
-    line-height: 100px;
     width: 200px;
     height: 100px;
     border-radius: 10px;
