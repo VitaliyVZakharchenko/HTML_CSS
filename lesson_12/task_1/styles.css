@@ -1,0 +1,33 @@
+section {
+    margin: 32px;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    line-height: 28px;
+}
+
+b {
+    letter-spacing: 3px;
+    font-size: 24px;
+    opacity: 80%;
+    text-decoration: underline;
+}
+
+em {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}

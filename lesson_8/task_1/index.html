@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <title>Box Model</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+        
+        .div_1 {
+            box-sizing: content-box;
+            border: 8px solid black;
+            margin: 16px;
+            padding: 16px;
+            width: 512px;
+            height: 128px;
+            background-color: aquamarine;
+        }
+
+        .div_2 {
+            box-sizing: border-box;
+            border: 8px solid black;
+            margin: 16px;
+            padding: 16px;
+            width: 512px;
+            height: 128px;
+            background-color: azure;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="div_1">Content Box Sizing</div>
+    <div class="div_2">Border Box Sizing</div>
+</body>
+</html>

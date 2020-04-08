@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.new_video {
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: block;
+}

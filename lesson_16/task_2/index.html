@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="form_control">
+            <label for="last-name-form-control">Last Name</label>
+            <input type="text" id="last-name-form-control" name="lastName" value="Emerson" readonly>
+        </div>
+
+        <div class="form_control">
+            <label for="age-form-control">Age</label>
+            <input type="number" id="age-form-control" min="3" max="10" name="age" value="17">
+        </div>
+
+        <div class="form_control">
+            <input type="checkbox" id="checkbox_agree" name="agree" disabled>
+            <label for="checkbox_agree">Accept terms and conditions</label>
+        </div>
+
+        <div class="choose-gender">
+            <input type="radio" id="gender_male" name="gender">
+            <label for="gender_male">Male</label>
+
+            <input type="radio" id="gender_female" name="gender">
+            <label for="gender_female">Female</label>
+            
+            <input type="radio" id="gender_secret" name="secret" checked>
+            <label for="gender_secret">Secret</label>
+        </div>
+
+        <div class="form_control">
+            <textarea name="description" maxlength="10" placeholder="Write description..."></textarea>
+        </div>
+        <div class="form_control">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

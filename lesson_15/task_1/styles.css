@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.image-container {
+    margin-top: 50px;
+}
+
+.img_LandWithTree {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.gallery {
+    display: flex;
+    margin-top: 50px;
+}
+
+.card {
+    margin: 16px;
+    box-shadow: 0px 7px 18px -8px rgba(0,0,0,0.75);
+}
+
+.opacity {
+    filter: opacity(50%);
+}
+
+.filter {
+    filter: blur(4px);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.text {
+    line-height: 30px;
+    text-align: center;
+    text-transform: lowercase;
+}
