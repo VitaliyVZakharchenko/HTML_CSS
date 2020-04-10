@@ -32,7 +32,7 @@
 span {
     text-transform: lowercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 4px;
+    margin: 4px;
     background-color: #faebd7;
     border-radius: 4px;
 }
