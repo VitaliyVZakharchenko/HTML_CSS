@@ -23,7 +23,7 @@
     flex-grow: 1;
 }
 
-.span {
+span {
     text-transform: lowercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 4px;
