@@ -3,26 +3,32 @@
 }
 
 .navigation {
-    background-color: #ff7f50;
-    min-height: 200px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
     width: 100%;
+    min-height: 200px;
+    background-color: #ff7f50;
 }
 
 .product-list {
-    background-color: #006400;
-    min-height: 200px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-grow: 1;
     width: 100%;
+    background-color: #006400;
+    min-height: 200px;
 }
 
 .news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
     background-color: #0ff;
     min-height: 200px;
-    display: flex;
-    flex-grow: 1;
 }
 
 span {
@@ -31,7 +37,6 @@ span {
     padding: 4px;
     background-color: #faebd7;
     border-radius: 4px;
-    margin: auto;
 }
 
 @media screen and (min-width: 600px) {
