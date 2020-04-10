@@ -7,7 +7,6 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    width: 100%;
     min-height: 200px;
     background-color: #ff7f50;
 }
@@ -17,7 +16,6 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    width: 100%;
     background-color: #006400;
     min-height: 200px;
 }
@@ -49,5 +47,11 @@ span {
 @media screen and (min-width: 900px) {
     .content {
         display: flex;
+        justify-content: space-around;
+    }
+    .navigation,
+    .product-list,
+    .news {
+        width: calc(100vw / 3);
     }
 }
