@@ -41,6 +41,10 @@ span {
     .products {
         display: flex;
     }
+    .navigation,
+    .product-list {
+        width: calc(100vw / 2);
+    }
 }
 
 @media screen and (min-width: 900px) {
