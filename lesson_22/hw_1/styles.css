@@ -10,14 +10,12 @@ html {
 .header {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     height: 3em;
     padding: 1em;
     background-color: #eee;
 }
 
 .header_button {
-    /* display: none; */
     padding: 0;
     border: none;
     outline: none;
@@ -46,21 +44,16 @@ html {
 
 .nav-list-item {
     display: flex;
-    /* align-items: center; */
     background-color: #808080;
     color: white;
     height: 2em;
-    /* padding-bottom: 0.5em; */
     margin-bottom: 0.5em;
-    /* может и маржин */
-
 }
 
 .nav-list-link {
     text-decoration: none;
     color: white;
     width: 100%;
-    /* text-align: center; */
     padding: 0.5em;
     white-space: nowrap;
     overflow: hidden;
@@ -70,10 +63,8 @@ html {
 @media screen and (min-width: 600px) {
     .navigation {
         visibility: visible;
-        /* display: block; */
     }
     .header_button {
         visibility: hidden;
-        /* display: block; */
     }
 }
