@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
+    height: 100vh;
 }
 
 .header {
@@ -35,6 +36,7 @@ body {
 
 .nav-list-item {
     display: flex;
+    align-items: center;
     background-color: #808080;
     color: white;
     height: 2em;
@@ -77,7 +79,7 @@ img {
     color: #8b0000;
     background-color: #e5e5e5;
     font-size: 1.125em;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .news {
