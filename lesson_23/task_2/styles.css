@@ -29,7 +29,7 @@ body {
     background-color: #8a2be2;
   }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 900px) {
   .square {
     background-color: #a61;
   }
