@@ -2,12 +2,6 @@ $sm: 600px;
 $md: 900px;
 $lg: 1200px;
 
-@mixin for-extra-small {
-    @media screen and (max-width: $sm-1) {
-        @content;        
-    }
-}
-
 @mixin for-small {
     @media screen and (min-width: $sm) {
         @content;        
@@ -23,5 +17,11 @@ $lg: 1200px;
 @mixin for-large-up {
     @media screen and (min-width: $lg) {
         @content;        
+    }
+}
+
+@mixin portrait {
+    @media screen and (orientation: portrait) {
+        @content;
     }
 }

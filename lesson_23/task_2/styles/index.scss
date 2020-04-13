@@ -11,6 +11,13 @@ body {
     height: 100vh;
 }
 
+.container {
+    display: flex;
+    @include portrait {
+        flex-direction: column;
+    }
+}
+
 .square {
     width: 100px;
     height: 100px;

@@ -9,6 +9,15 @@ body {
   height: 100vh;
 }
 
+.container {
+  display: flex;
+}
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
+
 .square {
   width: 100px;
   height: 100px;
