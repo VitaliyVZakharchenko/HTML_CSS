@@ -17,6 +17,7 @@ nav {
   margin-left: 3em;
   cursor: pointer;
   list-style-type: none;
+  color: white;
 }
 .menu__item {
   display: flex;
